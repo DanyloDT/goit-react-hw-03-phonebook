@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  gap: 10px;
+}
+
+.btn {
+  min-width: 58px;
+  min-height: 20px;
+
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+
+  background-color: #ffffff;
+  border: 1px solid #7f7878;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  color: #000000;
+  background-color: rgb(223, 101, 87);
+  border-color: gb(223, 101, 87);
+}
